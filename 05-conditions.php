@@ -109,5 +109,67 @@
         break;    
     }
 ?>
+
+    <h2>isset() et empty()</h2>
+    <p>Définitions :</p>
+    <p>isset() = Est-ce que la variable existe et n'est pas NULL ?</p>
+    <p>empty() = Est-ce que la variable est vide ?</p>
+
+    <?php
+    /*
+         * isset() Renvoie true si la variable est définie ET n'est pas NULL
+         * Ne génère pas d'avertissement si la variable n'existe pas
+         */
+            $var1 = 0;
+            $var2 = NULL;
+            $var3 = ""; // chaîne vide
+            $non_definie; // variable non définie
+
+            isset($var1);   // true (définie, valeur 0)
+            isset($var2);   // false (NULL)
+            isset($var3);   // true (définie, chaîne vide)
+            isset($non_definie); // false (non définie)
+
+        /*
+         * empty Renvoie true si la variable n'existe pas ou si elle a une valeur "vide"
+         * Une valeur est considérée comme vide si
+         * false, 0, 0.0, "", "0", [], NULL, variable non définie
+         */
+            $var1 = 0;
+            $var2 = NULL;
+            $var3 = ""; // chaîne vide
+            $non_definie; // variable non définie
+
+            empty($var1);   // true (0 est considéré comme vide)
+            empty($var2);   // true (NULL est vide)
+            empty($var3);   // true (chaîne vide)
+            empty($non_definie); // true (non définie)
+
+        //Utilisez isset() quand vous voulez vérifier si une variable existe et n'est pas NULL
+        //Utilisez empty() quand vous voulez vérifier si une variable est vide
+
+        //!empty() - "La variable n'est pas vide ?"
+
+        /*
+         * À quoi ça sert ?
+         * !empty() est l'inverse de empty(). Il vérifie qu'une variable :
+         *      - Existe (n'est pas indéfinie)
+         *      - N'est pas vide (n'est pas "", 0, false, NULL, [], etc.)
+         */
+            $nom = "Alice";     // Variable définie et non vide
+            if (!empty($nom)) {
+                echo "<p>Le nom est défini et non vide :  . $nom . </p>";
+            } else {
+                echo "<p>Le nom est vide ou non défini.</p>";
+            }
+        
+        //Astuce pour PHP 8+
+        //l'opérateur "??" indique qu'il faut prendre la première variable ou valeur qui existe :
+
+        $couleur_preferee = null;
+        $couleur_utilisee = $couleur_preferee ?? 'bleu'; // bleu si $couleur_preferee est null/undefined
+        echo "<p>Couleur utilisée :$couleur_utilisee </p>"; // Affiche "bleu"
+    ?>
+
 </body>
 </html>
