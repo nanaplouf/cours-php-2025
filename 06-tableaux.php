@@ -68,5 +68,6 @@
             echo "<p>$prenomAff</p>";
         }
     ?>
-</body>
-</html>
+<?php
+    require_once 'partials/footer.php';
+?>

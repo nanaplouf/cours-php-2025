@@ -10,14 +10,23 @@
 </head>
 <body>
     <header>   
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-danger">
         <div class="container-fluid">
             <a class="navbar-brand" href="/">Cours PHP</a>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="index.php">Index</a>
+                <a class="nav-link active" aria-current="page" href="index.php">index</a>
                 <a class="nav-link" href="00-bases.php">bases</a>
                 <a class="nav-link" href="01-variables.php">variable</a>
+                <a class="nav-link" href="02-constante.php">constante</a>
+                <a class="nav-link" href="03-concatenation.php">concatenation</a>
+                <a class="nav-link" href="04-arithmetique.php">arithmetique</a>
+                <a class="nav-link" href="05-conditions.php">condition</a>
+                <a class="nav-link" href="06-tableaux.php">tableau</a>
+                <a class="nav-link" href="07-boucles.php">boucles</a>
+                <a class="nav-link" href="08-fonction.php">fonction</a>
+                <a class="nav-link" href="09-date.php">date</a>
+                <a class="nav-link" href="10-inclusion.php">fonction</a>
             </div>
             </div>
         </div>

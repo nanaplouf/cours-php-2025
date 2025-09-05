@@ -31,5 +31,6 @@
         $mydate = new DateTime('11/04/2017');
         echo "<p>Voilà formaté : ".$mydate->format('Y-m-d')."</p>";
     ?>
-</body>
-</html>
+<?php
+    require_once 'partials/footer.php';
+?>

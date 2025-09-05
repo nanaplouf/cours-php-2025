@@ -37,5 +37,6 @@
     //on appel la fonction bonjour et on donne l'argument 
     bonjour('homme');
 ?>
-</body>
-</html>
+<?php
+    require_once 'partials/footer.php';
+?>

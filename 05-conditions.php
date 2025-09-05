@@ -166,5 +166,6 @@
         echo "<p>Couleur utilisée :$couleur_utilisee </p>"; // Affiche "bleu"
     ?>
 
-</body>
-</html>
+<?php
+    require_once 'partials/footer.php';
+?>

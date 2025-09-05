@@ -66,5 +66,6 @@
         --$i; // On retire 1 à $i qui vaut au final 0
 
     ?>
-</body>
-</html>
+<?php
+    require_once 'partials/footer.php';
+?>

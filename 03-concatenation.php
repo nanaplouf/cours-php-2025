@@ -34,5 +34,6 @@
         //Dans les guillemets, la variable est évaluée : c\'est son contenu qui est affiché
         echo "<p>$messageBis</p>";
     ?>
-</body>
-</html>
+<?php
+    require_once 'partials/footer.php';
+?>
