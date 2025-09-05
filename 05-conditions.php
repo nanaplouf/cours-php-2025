@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conditions</title>
-</head>
-<body>
+<?php
+    require_once 'partials/head.php';
+?>
     <h1>Les conditions</h1>
     <?php
         $a = 10; $b = 5; $c = 2;

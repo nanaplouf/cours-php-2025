@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>00 Les bases</title>
-</head>
-<body>
+<?php
+    require_once 'partials/head.php';
+?>
     <h1>Cours 00 Les bases</h1>
     <?php 
         //je peux faire du PHP
@@ -48,5 +43,6 @@
         $maVariable1 = 1;
         var_dump($maVariable1);
     ?>
-</body>
-</html>
+<?php
+    require_once 'partials/footer.php';
+?>

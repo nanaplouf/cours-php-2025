@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Les variables</title>
-</head>
-<body>
+<?php
+    require_once 'partials/head.php';
+?>
     <h1>Les variables en PHP</h1>
     <h2>Variable : déclaration / affectation / types</h2>
 
@@ -31,5 +26,6 @@
         echo '<p>Ma variable $b = ' . $b . ' est de type : ' . gettype($b) . '</p>';
         echo '<p>Ma variable $c = ' . $c . ' est de type : ' . gettype($c) . '</p>';
     ?>
-</body>
-</html>
+<?php
+    require_once 'partials/footer.php';
+?>

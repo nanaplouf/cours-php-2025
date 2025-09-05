@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tableau</title>
-</head>
-<body>
+<?php
+    require_once 'partials/head.php';
+?>
     <h1>Les tableau en PHP</h1>
     <p>Un tableau, ou array en anglais, est une variable améliorée dans laquelle on stocke une multitude de valeurs. 
         Ces valeurs peuvent être de n'importe quel type. 

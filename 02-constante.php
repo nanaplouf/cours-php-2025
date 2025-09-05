@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Les constantes</title>
-</head>
-<body>
+<?php
+    require_once 'partials/head.php';
+?>
     <h1>Les constantes en PHP</h1>
     <?php
         echo '<p>Une constante permet de conserver une valeur sauf que celle-ci ne peut pas être modifiée durant l\'exécution du ou des scripts. Utile pour par exemple conserver les paramètres de connexion à la BDD sans pouvoir les modifier une fois définis.</p>';
@@ -31,5 +26,6 @@
     <button type="button" class="btn btn-dark mt-5">
         <a href="https://www.php.net/manual/fr/language.constants.magic.php#constant.dir">Documentation PHP</a>
     </button>
-</body>
-</html>
+<?php
+    require_once 'partials/footer.php';
+?>

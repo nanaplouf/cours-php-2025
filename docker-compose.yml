@@ -5,3 +5,4 @@ services:
       - "8080:80"
     volumes:
       - .:/var/www/html
+      - ./php.ini:/usr/local/etc/php/php.ini
