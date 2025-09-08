@@ -27,6 +27,7 @@
                 <a class="nav-link" href="08-fonction.php">fonction</a>
                 <a class="nav-link" href="09-date.php">date</a>
                 <a class="nav-link" href="10-inclusion.php">fonction</a>
+                <a class="nav-link" href="11-requetes.php">requêtes</a>
             </div>
             </div>
         </div>
