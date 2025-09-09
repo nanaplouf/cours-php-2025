@@ -37,6 +37,10 @@
 
     <h2>GET</h2>
     <a href="/get/affichage.php">La méthode Get</a>
+
+    <h2>POST</h2>
+    <a href="/post/form.php">La méthode POST</a>
+
 <?php 
     require_once 'partials/footer.php';
 ?>
